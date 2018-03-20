@@ -59,3 +59,7 @@ type.WholeNumber <- type_define(
   check = function(x) { try(all(x %% 1 == 0)) },
   size  = length
 )
+type.ProbabilityVector <- type_define(
+  check = function(x){ try(all(x >= 0 & x <= 1) & (1 - sum(x) < 1e-3)) },
+  size  = length
+)
