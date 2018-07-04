@@ -56,7 +56,7 @@ type.Natural     <- type_define(
   size  = length
 )
 type.WholeNumber <- type_define(
-  check = function(x) { try(all(x %% 1 == 0)) },
+  check = function(x) { try(all(x %% 1L == 0)) },
   size  = length
 )
 type.ProbabilityVector <- type_define(

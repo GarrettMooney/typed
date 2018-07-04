@@ -1,4 +1,6 @@
 # typed
+[![Travis build status](https://travis-ci.com/GarrettMooney/typed.svg?branch=master)](https://travis-ci.com/GarrettMooney/typed)
+
 Common Types for use with TypeCheck in R
 
 typed defines common types so you don't have to. typed complements 
